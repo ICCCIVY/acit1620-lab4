@@ -1,10 +1,66 @@
+:root{
+    --base-color:200;
+}
 header{
-    background-color: darkslategrey;
-    color: white;
+    background-color: hsl(var(--base-color), 70%, 20%);
     text-align: center;
     padding: 2.5rem;
     margin-bottom: 1rem;
     font-size:15px;
-   
+    color: white;
+}
 
+    
+.navlink{
+    
+    text-decoration: none;
+    color:hsl(var(--base-color), 50%, 50%);
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ddd; 
+    text-decoration: none;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: .3s ease;
+}
+
+
+
+.navlink:hover {
+    font-size: 1.2em;  
+    background-color: hsl(var(--base-color), 70%, 20%);
+    color:white;
+    transform: scale(1.2);
+       
+}
+
+nav{
+    margin-top: 30px;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    color:hsl(var(--base-color), 70%, 20%);
+}
+
+
+.content_section h2{
+    color:hsl(var(--base-color), 50%, 50%) ;
+    margin-top: 20px;
+}
+.content_section {
+    color:hsl(var(--base-color), 70%, 20%);
+}
+.content_section:hover{
+    background-color:hsl(var(--base-color), 70%, 20%) ;
+    padding: 20px;
+    margin-top: 30px;
+    transition:background-color 0.3s ease-in-out, color 0.5s ease-in-out, padding 0.5s ease-in-out;
+    color: white;
+    h2{
+        color: white;
+    }
 }
